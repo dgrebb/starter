@@ -68,3 +68,11 @@
 		zoom: 1; /* For IE 6/7 (trigger hasLayout) */
 	}
 }
+
+@mixin ir {
+	overflow: hidden;
+	font-size: 0;
+	text-indent: 100%;
+	white-space: nowrap;
+	color: transparent;
+}
