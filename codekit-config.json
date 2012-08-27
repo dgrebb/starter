@@ -1,17 +1,17 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "6204",
+  "creatorBuild" : "6502",
   "files" : {
-    "\/apple-touch-icon-114x114-precomposed.png" : {
+    "\/js\/plugins.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
-      "initialSize" : 3242,
-      "fileType" : 10
+      "inputAbbreviatedPath" : "\/js\/plugins.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/plugins.min.js",
+      "fileType" : 5
     },
     "\/apple-touch-icon-144x144-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
@@ -24,25 +24,63 @@
       "initialSize" : 3777,
       "fileType" : 10
     },
-    "\/index.html" : {
+    "\/sass\/general.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path Set",
-      "fileType" : 8
+      "inputAbbreviatedPath" : "\/sass\/general.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/general.css",
+      "fileType" : 2,
+      "debugStyle" : 0
     },
-    "\/js\/script.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+    "\/js\/lib\/modernizr-2.6.1.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/script.js",
+      "inputAbbreviatedPath" : "\/js\/lib\/modernizr-2.6.1.min.js",
+      "outputStyle" : 0,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/lib\/modernizr-2.6.1.min.min.js",
+      "fileType" : 5
+    },
+    "\/js\/lib\/selectivizr-1.0.3.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/lib\/selectivizr-1.0.3.min.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/script.min.js",
+      "outputAbbreviatedPath" : "\/js\/lib\/selectivizr-1.0.3.min.min.js",
       "fileType" : 5
+    },
+    "\/sass\/base.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/base.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/base.css",
+      "fileType" : 2,
+      "debugStyle" : 0
+    },
+    "\/sass\/reset.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/reset.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/reset.css",
+      "fileType" : 2,
+      "debugStyle" : 0
     },
     "\/js\/lib\/jRespond-0.7.2.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -55,14 +93,48 @@
       "outputAbbreviatedPath" : "\/js\/lib\/jRespond-0.7.2.min.min.js",
       "fileType" : 5
     },
-    "\/apple-touch-icon.png" : {
+    "\/js\/plugins.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/plugins.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/plugins.min.min.js",
+      "fileType" : 5
+    },
+    "\/js\/script.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/script.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/script.min.min.js",
+      "fileType" : 5
+    },
+    "\/sass\/style.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon.png",
+      "inputAbbreviatedPath" : "\/sass\/style.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/style.css",
+      "fileType" : 2,
+      "debugStyle" : 0
+    },
+    "\/apple-touch-icon-57x57-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/apple-touch-icon-57x57-precomposed.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/apple-touch-icon.png",
+      "outputAbbreviatedPath" : "\/apple-touch-icon-57x57-precomposed.png",
       "initialSize" : 2005,
       "fileType" : 10
     },
@@ -77,28 +149,6 @@
       "outputAbbreviatedPath" : "\/js\/lib\/jquery-1.7.2.min.min.js",
       "fileType" : 5
     },
-    "\/apple-touch-icon-precomposed.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
-      "initialSize" : 2005,
-      "fileType" : 10
-    },
-    "\/js\/plugins.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/plugins.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/plugins.min.js",
-      "fileType" : 5
-    },
     "\/apple-touch-icon-72x72-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -110,16 +160,90 @@
       "initialSize" : 2253,
       "fileType" : 10
     },
-    "\/apple-touch-icon-57x57-precomposed.png" : {
+    "\/css\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 13
+    },
+    "\/apple-touch-icon-114x114-precomposed.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/apple-touch-icon-57x57-precomposed.png",
+      "inputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/apple-touch-icon-57x57-precomposed.png",
+      "outputAbbreviatedPath" : "\/apple-touch-icon-114x114-precomposed.png",
+      "initialSize" : 3242,
+      "fileType" : 10
+    },
+    "\/apple-touch-icon.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/apple-touch-icon.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/apple-touch-icon.png",
       "initialSize" : 2005,
       "fileType" : 10
+    },
+    "\/apple-touch-icon-precomposed.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/apple-touch-icon-precomposed.png",
+      "initialSize" : 2005,
+      "fileType" : 10
+    },
+    "\/sass\/setup.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/setup.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/setup.css",
+      "fileType" : 2,
+      "debugStyle" : 0
+    },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "\/No Output Path Set",
+      "fileType" : 8
+    },
+    "\/js\/lib\/picturefill-1.0.0.min.js" : {
+      "ignoreWasSetByUser" : 1,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/lib\/picturefill-1.0.0.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/lib\/picturefill-1.0.0.min.min.js",
+      "fileType" : 5
+    },
+    "\/js\/script.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/script.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/script.min.js",
+      "fileType" : 5
     },
     "\/js\/lib\/respond-1.1.0.min.js" : {
       "ignoreWasSetByUser" : 1,
@@ -132,16 +256,17 @@
       "outputAbbreviatedPath" : "\/js\/lib\/respond-1.1.0.min.min.js",
       "fileType" : 5
     },
-    "\/js\/lib\/modernizr-2.6.1.min.js" : {
-      "ignoreWasSetByUser" : 1,
+    "\/sass\/queries\/retina.scss" : {
+      "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/lib\/modernizr-2.6.1.min.js",
-      "outputStyle" : 0,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/lib\/modernizr-2.6.1.min.min.js",
-      "fileType" : 5
+      "inputAbbreviatedPath" : "\/sass\/queries\/retina.scss",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/css\/retina.css",
+      "fileType" : 2,
+      "debugStyle" : 0
     }
   },
   "manualImportLinks" : [
@@ -187,8 +312,8 @@
     "javascriptSyntaxCheckerStyle" : 0,
     "sassAutoOutputPathReplace1" : "sass",
     "sassOutputStyle" : 3,
-    "coffeeAutoOutputPathRelativePath" : "",
     "uglifyIndent" : 4,
+    "coffeeAutoOutputPathRelativePath" : "",
     "jadeAutoOutputPathRelativePath" : "",
     "hamlUseUnixNewlines" : 0,
     "hamlAutoOutputPathReplace1" : "",
@@ -271,7 +396,6 @@
       "undef" : 0,
       "es5" : 0,
       "browser" : 1,
-      "widget" : 0,
       "properties" : 0,
       "forin" : 0,
       "plusplus" : 0,
@@ -294,11 +418,12 @@
       "no-dead-code" : 0,
       "inline-script" : 0,
       "ascii" : 0,
-      "mangle-toplevel" : 0,
       "unsafe" : 0,
+      "mangle-toplevel" : 0,
       "no-seqs" : 1,
       "beautify" : 0,
       "lift-vars" : 0,
+      "consolidate-primitive-values" : 0,
       "no-squeeze" : 0
     },
     "sassAutoOutputPathReplace2" : "css",
